@@ -1,0 +1,40 @@
+
+.dav{
+    display: block;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-family: Bodoni Bd BT;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 5px 5px;
+}
+.dav:hover{
+    box-shadow: 0 0 5px gray, 0 0 25px gray, 0 0 50px gray, 0 0 200px gray;
+    background-color: black;
+    color: white;
+
+}
+.photo:hover{
+    transform: scale(1.1);
+}
+.text{
+    font-family: Bodoni Bd BT;
+    font-weight: bold;
+    font-size: 60px;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: bold;
+    font-family: Bodoni Bd BT;
+    font-size: 22px;
+}
+.ikkinchi{
+    padding-top: 100px;
+}
+.uchinchi{
+    padding-top: 110px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <title>Shop</title>
+</head>
+
+<body>
+    
+    <div class="page_1">
+        <div class="container">
+            <div class="d-flex  pt-3">
+                <button class="day me-1 btn btn-dark border"> ON/OFF</button>
+                <button class="btn  btn-dark me-2 border " name="12">Menu</button>
+                <input type="search" class="form-control border-none " oninput="SearchFun()" placeholder="click to search">
+                <button class="btn btn-dark cart ms-2 border"> <i class="bi bi-bag   icon"></i></button>
+            </div>
+    
+            <div class="row birinchi mt-5">
+                <h1 class="text"> Cases</h1>
+            </div>
+            <div class="row ikkinchi " id="12">
+                <h1 class="text"> Earbuds</h1>
+            </div>
+            <div class="row uchinchi ">
+                <h1 class="text"> Airpods</h1>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="page_2 d-none">
+        <div class="container">
+            <div class=" myCard d-flex  mt-3">
+                <button class="day me-1 btn btn-dark border"> ON/OFF</button>
+                <button class="btn  btn-dark me-2 border menu">Menu</button>
+                <input type="search" class="form-control border-none " oninput="SearchFun()" placeholder="click to search">
+                <button class="btn btn-dark cart ms-2 border icon"> <i class="bi bi-bag"></i></button>
+            </div>
+            <div class="all_cost"></div>
+            <div class=" row page2">
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
